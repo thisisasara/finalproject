@@ -1,0 +1,122 @@
+:root{
+    --orange: #FF9F1C;
+    --red: #E71D36;
+    --blue: #2EC4B6;
+     --paleblue: #80A1C1;
+     --green: #3D7A3B;
+     --cream: #F6D8AE;
+     --darkgrey: #252323;
+     --dark: #01100;
+     --light: #ACBDBA;
+     --boxborder: 6px;
+     --ballborder: 12px;
+   }
+   
+   html {
+     font-size: 0.8em;
+     color: var(--dark);
+     background-color: white;
+     text-align: center;
+   }
+   a {
+     color: var(--dark);
+   }
+   
+   h3:hover {
+     background-color: var(--light);
+   }
+   li img:hover {
+     border-color: var(--light);
+   }
+   
+   canvas {
+     display: none;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 100px;
+     height: 75px;
+   }
+   
+   .anarchy {
+     position: absolute;
+     visibility: hidden;
+   }
+   img {
+     width: 200px;
+     padding-top: 200px;
+   /*   border: var(--ballborder) solid var(--red);  */
+   }
+   .photo img{
+     width: 250px;
+     padding-top: 50px;
+   }
+   #intro {
+     background-color: var(--orange);
+     font-size: 18px;
+     width: 180px;
+     padding: 10px;
+     font-family: 'Quattrocento Sans', sans-serif; font-size: 22px;
+   /*   border: var(--boxborder) solid var(--dark);  */
+   }
+   h1 {
+     width: 120px;
+     height: 60px;
+     padding-top: 10px;
+     font-family: 'Quattrocento Sans', sans-serif;
+     font-size: 40px;
+     font-weight: 700;
+     color:#162cb4;
+   }
+   
+   h2 {
+     width: 150px;
+     height: 60px;
+     padding-top: 10px;
+     font-family: 'Quattrocento Sans', sans-serif;
+     font-size: 40px;
+     font-weight: 700;
+     color:#162cb4;
+   }
+   
+   
+   h3 {
+    width: 600px;
+    height: 60px;
+    padding-top: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#162cb4;
+   }
+
+
+     
+   h4 {
+    width: 200px;
+    height: 60px;
+    padding-top: 10px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+   }
+
+
+
+
+   .smaller {
+     width: 240px;
+   }
+   
+   li > div {
+     background-color: var(--green);
+     width: 300px;
+     padding: 10px;
+     font-family: 'Quattrocento Sans', sans-serif; font-size: 14px;
+     border: var(--boxborder) solid var(--dark); 
+   }
+   p {
+     margin-bottom: 10px;
+   }
+   
+   
+   
