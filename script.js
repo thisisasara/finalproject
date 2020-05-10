@@ -1,3 +1,13 @@
+
+  document.onclick=function() {
+    // console.log("Hello world!");
+    document.getElementById("click1").style.display = "none";
+    // document.getElementById("clickclosed").style.display = 'block';
+}
+
+
+
+
 // module aliases
 var Engine = Matter.Engine,
     Render = Matter.Render,
@@ -165,4 +175,9 @@ draw();
   }
   window.requestAnimationFrame(render);
 })();
+
+
+
+
+
 
